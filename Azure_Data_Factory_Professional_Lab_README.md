@@ -203,43 +203,9 @@ Only records with Amount \> 20000 and GST column added.
 
 ------------------------------------------------------------------------
 
-# Key Concepts Explained
 
-## Logical Server vs Database
 
--   Server manages authentication and firewall
--   Database stores tables and data
 
-## Copy Activity vs Data Flow
-
-  Feature          Copy Activity   Data Flow
-  ---------------- --------------- -----------
-  Move Data        Yes             Yes
-  Transform Data   Limited         Yes
-  Uses Spark       No              Yes
-  Cost             Lower           Higher
-
-------------------------------------------------------------------------
-
-# Student Exercises
-
-1.  Add new column: FinalAmount = Amount + GST
-
-2.  Filter only Mumbai customers
-
-3.  Add Conditional Column: If Amount \> 50000 → Premium Else → Standard
-
-------------------------------------------------------------------------
-
-# Learning Outcomes
-
-After completing this lab, students will understand:
-
--   Azure SQL setup and authentication
--   Blob Storage integration
--   ADF Linked Services and Datasets
--   Copy Activity pipeline creation
--   Spark-based transformation in Data Flow
 -   Monitoring and debugging pipelines
 
 ------------------------------------------------------------------------
